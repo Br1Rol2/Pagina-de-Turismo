@@ -1,0 +1,389 @@
+13-Oct-2023 18:02:32.695 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Oct-2023 18:02:32.695 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Oct-2023 18:02:32.696 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5f0a2638')
+13-Oct-2023 18:28:40.889 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Oct-2023 18:28:40.889 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Oct-2023 19:17:08.153 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Oct-2023 19:17:08.153 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Oct-2023 19:17:08.154 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1640a6b5')
+13-Oct-2023 19:27:56.520 GRAVE [http-nio-8080-exec-31] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [SvInscripcionSalida] lanzó excepción
+	java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Problem compiling [SELECT MAX(ig.id) FROM InscripcionGeneral ig]. 
+[11, 16] The state field path 'ig.id' cannot be resolved to a valid type.
+[23, 41] The abstract schema type 'InscripcionGeneral' is unknown.
+		at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1751)
+		at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1772)
+		at controladores.Sistema.confirmarInscripcion(Sistema.java:368)
+		at servlets.SvInscripcionSalida.doPost(SvInscripcionSalida.java:111)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.7.12.v20230209-e5c4074ef3): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Problem compiling [SELECT MAX(ig.id) FROM InscripcionGeneral ig]. 
+[11, 16] The state field path 'ig.id' cannot be resolved to a valid type.
+[23, 41] The abstract schema type 'InscripcionGeneral' is unknown.
+		at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:157)
+		at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:349)
+		at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:280)
+		at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:165)
+		at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+		at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:118)
+		at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:104)
+		at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:88)
+		at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1749)
+		... 27 more
+13-Oct-2023 19:29:29.058 GRAVE [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationDispatcher.invoke El Servlet.service() para servlet [jsp] lanzó una excepción
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [107] en el archivo jsp: [/actividadestur.jsp]
+The method getAllActsdeCatFromBD(String) is undefined for the type ISistema
+104:         }
+105:         else if(aca != null && !aca.isEmpty()){
+106:              System.out.println(aca);
+107:             List<String> listActsCat = sys.getAllActsdeCatFromBD(aca);
+108:             for (String actividades : listActsCat) {
+109:                 String actNombre = actividades;
+110:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+
+
+Ha tenido lugar un error en la línea: [111] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+108:             for (String actividades : listActsCat) {
+109:                 String actNombre = actividades;
+110:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+111:                 if(sys.selectActFromDB(actNombre)!=null){
+112:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+113:                 }
+114:                 if(confirmada==EstadoActividad.CONFIRMADA){
+
+
+Ha tenido lugar un error en la línea: [112] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+109:                 String actNombre = actividades;
+110:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+111:                 if(sys.selectActFromDB(actNombre)!=null){
+112:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+113:                 }
+114:                 if(confirmada==EstadoActividad.CONFIRMADA){
+115:                     %>
+
+
+Ha tenido lugar un error en la línea: [125] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+122:             for (String actividades : listActsDep){
+123:                 String actNombre = actividades;
+124:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+125:                 if(sys.selectActFromDB(actNombre)!=null){
+126:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+127:                 }
+128:                 if(confirmada==EstadoActividad.CONFIRMADA){
+
+
+Ha tenido lugar un error en la línea: [126] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+123:                 String actNombre = actividades;
+124:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+125:                 if(sys.selectActFromDB(actNombre)!=null){
+126:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+127:                 }
+128:                 if(confirmada==EstadoActividad.CONFIRMADA){
+129:                     %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at servlets.SvActividadTuristica.doGet(SvActividadTuristica.java:26)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+13-Oct-2023 19:29:29.059 GRAVE [http-nio-8080-exec-42] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [SvActividadTuristica] en el contexto con ruta [/LABPAPP_WEB] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [107] en el archivo jsp: [/actividadestur.jsp]
+The method getAllActsdeCatFromBD(String) is undefined for the type ISistema
+104:         }
+105:         else if(aca != null && !aca.isEmpty()){
+106:              System.out.println(aca);
+107:             List<String> listActsCat = sys.getAllActsdeCatFromBD(aca);
+108:             for (String actividades : listActsCat) {
+109:                 String actNombre = actividades;
+110:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+
+
+Ha tenido lugar un error en la línea: [111] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+108:             for (String actividades : listActsCat) {
+109:                 String actNombre = actividades;
+110:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+111:                 if(sys.selectActFromDB(actNombre)!=null){
+112:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+113:                 }
+114:                 if(confirmada==EstadoActividad.CONFIRMADA){
+
+
+Ha tenido lugar un error en la línea: [112] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+109:                 String actNombre = actividades;
+110:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+111:                 if(sys.selectActFromDB(actNombre)!=null){
+112:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+113:                 }
+114:                 if(confirmada==EstadoActividad.CONFIRMADA){
+115:                     %>
+
+
+Ha tenido lugar un error en la línea: [125] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+122:             for (String actividades : listActsDep){
+123:                 String actNombre = actividades;
+124:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+125:                 if(sys.selectActFromDB(actNombre)!=null){
+126:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+127:                 }
+128:                 if(confirmada==EstadoActividad.CONFIRMADA){
+
+
+Ha tenido lugar un error en la línea: [126] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+123:                 String actNombre = actividades;
+124:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+125:                 if(sys.selectActFromDB(actNombre)!=null){
+126:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+127:                 }
+128:                 if(confirmada==EstadoActividad.CONFIRMADA){
+129:                     %>
+
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [107] en el archivo jsp: [/actividadestur.jsp]
+The method getAllActsdeCatFromBD(String) is undefined for the type ISistema
+104:         }
+105:         else if(aca != null && !aca.isEmpty()){
+106:              System.out.println(aca);
+107:             List<String> listActsCat = sys.getAllActsdeCatFromBD(aca);
+108:             for (String actividades : listActsCat) {
+109:                 String actNombre = actividades;
+110:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+
+
+Ha tenido lugar un error en la línea: [111] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+108:             for (String actividades : listActsCat) {
+109:                 String actNombre = actividades;
+110:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+111:                 if(sys.selectActFromDB(actNombre)!=null){
+112:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+113:                 }
+114:                 if(confirmada==EstadoActividad.CONFIRMADA){
+
+
+Ha tenido lugar un error en la línea: [112] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+109:                 String actNombre = actividades;
+110:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+111:                 if(sys.selectActFromDB(actNombre)!=null){
+112:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+113:                 }
+114:                 if(confirmada==EstadoActividad.CONFIRMADA){
+115:                     %>
+
+
+Ha tenido lugar un error en la línea: [125] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+122:             for (String actividades : listActsDep){
+123:                 String actNombre = actividades;
+124:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+125:                 if(sys.selectActFromDB(actNombre)!=null){
+126:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+127:                 }
+128:                 if(confirmada==EstadoActividad.CONFIRMADA){
+
+
+Ha tenido lugar un error en la línea: [126] en el archivo jsp: [/actividadestur.jsp]
+The method selectActFromDB(String) is undefined for the type ISistema
+123:                 String actNombre = actividades;
+124:                 EstadoActividad confirmada= EstadoActividad.AGREGADA;
+125:                 if(sys.selectActFromDB(actNombre)!=null){
+126:                     confirmada= (sys.selectActFromDB(actNombre)).getEstado();
+127:                 }
+128:                 if(confirmada==EstadoActividad.CONFIRMADA){
+129:                     %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:425)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at servlets.SvActividadTuristica.doGet(SvActividadTuristica.java:26)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+13-Oct-2023 19:53:27.669 GRAVE [http-nio-8080-exec-72] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [SvRegistro] lanzó excepción
+	java.nio.file.NoSuchFileException: /home/facu/Desktop/a/SamuelAltaActividad11-10/LABPAPP_WEB_br1_arreglado/LABPAPP_WEB/src/main/webapp/imagenes_perfil/ronnie.png
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+		at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+		at java.base/java.nio.file.Files.newOutputStream(Files.java:227)
+		at java.base/java.nio.file.Files.copy(Files.java:3140)
+		at servlets.SvRegistro.doPost(SvRegistro.java:143)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+13-Oct-2023 20:13:33.809 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Oct-2023 20:13:33.810 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Oct-2023 20:24:04.878 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Oct-2023 20:24:04.878 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Oct-2023 20:24:04.879 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@62b3a2f6')
+13-Oct-2023 20:35:06.897 GRAVE [http-nio-8080-exec-30] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [SvInscripcionSalida] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "logica.SalidasTuristicas.estaInscritoUsuario(String)" because "this.salidaSeleccionada" is null
+		at controladores.Sistema.inscripcionSalida(Sistema.java:356)
+		at servlets.SvInscripcionSalida.doPost(SvInscripcionSalida.java:110)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+13-Oct-2023 20:55:56.233 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Oct-2023 20:55:56.233 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

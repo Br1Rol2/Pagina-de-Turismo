@@ -1,0 +1,184 @@
+20-Oct-2023 00:01:42.931 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+20-Oct-2023 00:01:42.936 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+20-Oct-2023 00:02:00.036 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Oct-2023 00:02:00.036 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Oct-2023 00:02:00.040 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@51d50b5f')
+20-Oct-2023 00:05:01.435 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Oct-2023 00:05:01.435 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Oct-2023 00:05:01.449 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1046aaa4')
+20-Oct-2023 00:06:12.928 GRAVE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/lab-deploy-manual] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [14] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. controladores.Fabrica resolves to a package
+
+Ha tenido lugar un error en la línea: [15] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. controladores.ISistema resolves to a package
+
+Ha tenido lugar un error en la línea: [16] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. controladores.Fabrica resolves to a package
+
+Ha tenido lugar un error en la línea: [17] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. controladores.ISistema resolves to a package
+
+Ha tenido lugar un error en la línea: [18] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. datatypes.DataUsuario resolves to a package
+
+Ha tenido lugar un error en la línea: [24] en el archivo jsp: [/Components/header.jsp]
+ISistema cannot be resolved to a type
+21:         <link href="Components/estilos.css" rel="stylesheet">
+22:     </head>
+23:   <% 
+24:     ISistema sys = new Fabrica().getSistema();
+25:   %>
+
+
+Ha tenido lugar un error en la línea: [24] en el archivo jsp: [/Components/header.jsp]
+Fabrica cannot be resolved to a type
+21:         <link href="Components/estilos.css" rel="stylesheet">
+22:     </head>
+23:   <% 
+24:     ISistema sys = new Fabrica().getSistema();
+25:   %>
+
+
+Ha tenido lugar un error en la línea: [7] en el archivo jsp: [/Components/bodyPrincipal.jsp]
+DataUsuario cannot be resolved to a type
+4: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+5: <%
+6:     Object loggeadoAtributo = session.getAttribute("logeado");
+7:     DataUsuario usuarioLoggeado = null;
+8:     ISistema sys2 = new Fabrica().getSistema();
+9:     boolean logged = false;
+10:     String nick = null;
+
+
+Ha tenido lugar un error en la línea: [8] en el archivo jsp: [/Components/bodyPrincipal.jsp]
+ISistema cannot be resolved to a type
+5: <%
+6:     Object loggeadoAtributo = session.getAttribute("logeado");
+7:     DataUsuario usuarioLoggeado = null;
+8:     ISistema sys2 = new Fabrica().getSistema();
+9:     boolean logged = false;
+10:     String nick = null;
+11:     
+
+
+Ha tenido lugar un error en la línea: [8] en el archivo jsp: [/Components/bodyPrincipal.jsp]
+Fabrica cannot be resolved to a type
+5: <%
+6:     Object loggeadoAtributo = session.getAttribute("logeado");
+7:     DataUsuario usuarioLoggeado = null;
+8:     ISistema sys2 = new Fabrica().getSistema();
+9:     boolean logged = false;
+10:     String nick = null;
+11:     
+
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [14] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. controladores.Fabrica resolves to a package
+
+Ha tenido lugar un error en la línea: [15] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. controladores.ISistema resolves to a package
+
+Ha tenido lugar un error en la línea: [16] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. controladores.Fabrica resolves to a package
+
+Ha tenido lugar un error en la línea: [17] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. controladores.ISistema resolves to a package
+
+Ha tenido lugar un error en la línea: [18] en el fichero java generado: [/home/samuel/dev/apache-tomcat-9.0.80/work/Catalina/localhost/lab-deploy-manual/org/apache/jsp/index_jsp.java]
+Only a type can be imported. datatypes.DataUsuario resolves to a package
+
+Ha tenido lugar un error en la línea: [24] en el archivo jsp: [/Components/header.jsp]
+ISistema cannot be resolved to a type
+21:         <link href="Components/estilos.css" rel="stylesheet">
+22:     </head>
+23:   <% 
+24:     ISistema sys = new Fabrica().getSistema();
+25:   %>
+
+
+Ha tenido lugar un error en la línea: [24] en el archivo jsp: [/Components/header.jsp]
+Fabrica cannot be resolved to a type
+21:         <link href="Components/estilos.css" rel="stylesheet">
+22:     </head>
+23:   <% 
+24:     ISistema sys = new Fabrica().getSistema();
+25:   %>
+
+
+Ha tenido lugar un error en la línea: [7] en el archivo jsp: [/Components/bodyPrincipal.jsp]
+DataUsuario cannot be resolved to a type
+4: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+5: <%
+6:     Object loggeadoAtributo = session.getAttribute("logeado");
+7:     DataUsuario usuarioLoggeado = null;
+8:     ISistema sys2 = new Fabrica().getSistema();
+9:     boolean logged = false;
+10:     String nick = null;
+
+
+Ha tenido lugar un error en la línea: [8] en el archivo jsp: [/Components/bodyPrincipal.jsp]
+ISistema cannot be resolved to a type
+5: <%
+6:     Object loggeadoAtributo = session.getAttribute("logeado");
+7:     DataUsuario usuarioLoggeado = null;
+8:     ISistema sys2 = new Fabrica().getSistema();
+9:     boolean logged = false;
+10:     String nick = null;
+11:     
+
+
+Ha tenido lugar un error en la línea: [8] en el archivo jsp: [/Components/bodyPrincipal.jsp]
+Fabrica cannot be resolved to a type
+5: <%
+6:     Object loggeadoAtributo = session.getAttribute("logeado");
+7:     DataUsuario usuarioLoggeado = null;
+8:     ISistema sys2 = new Fabrica().getSistema();
+9:     boolean logged = false;
+10:     String nick = null;
+11:     
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+20-Oct-2023 00:11:49.656 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Oct-2023 00:11:49.657 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Oct-2023 00:11:49.658 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@13fd5aaa')
+20-Oct-2023 00:11:50.322 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+20-Oct-2023 00:11:50.322 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

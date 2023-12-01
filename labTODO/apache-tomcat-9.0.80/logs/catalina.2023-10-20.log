@@ -1,0 +1,450 @@
+20-Oct-2023 00:01:42.811 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+20-Oct-2023 00:01:42.811 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Oct-2023 00:01:42.817 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+20-Oct-2023 00:01:42.905 ADVERTENCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [LABPAPP_WEB] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+20-Oct-2023 00:01:42.907 ADVERTENCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LABPAPP_WEB] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20.1/java.lang.Object.wait(Native Method)
+ java.base@11.0.20.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@11.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20.1/java.lang.Thread.run(Thread.java:829)
+20-Oct-2023 00:01:42.951 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Oct-2023 00:01:42.973 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Oct-2023 00:01:55.449 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.80
+20-Oct-2023 00:01:55.455 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 23 2023 21:59:38 UTC
+20-Oct-2023 00:01:55.455 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.80.0
+20-Oct-2023 00:01:55.456 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+20-Oct-2023 00:01:55.456 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      6.2.0-34-generic
+20-Oct-2023 00:01:55.456 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+20-Oct-2023 00:01:55.457 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-19-openjdk-amd64
+20-Oct-2023 00:01:55.457 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       19.0.2+7-Ubuntu-0ubuntu322.04
+20-Oct-2023 00:01:55.457 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+20-Oct-2023 00:01:55.457 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:01:55.457 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:01:55.499 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2023 00:01:55.499 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2023 00:01:55.499 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2023 00:01:55.499 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/samuel/dev/apache-tomcat-9.0.80/conf/logging.properties
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:01:55.500 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/samuel/dev/apache-tomcat-9.0.80/temp
+20-Oct-2023 00:01:55.502 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+20-Oct-2023 00:01:56.055 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+20-Oct-2023 00:01:56.104 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [957] milliseconds
+20-Oct-2023 00:01:56.228 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+20-Oct-2023 00:01:56.228 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+20-Oct-2023 00:01:56.244 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/home/samuel/dev/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+20-Oct-2023 00:01:56.272 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LABPAPP_WEB] in deployment descriptor [/home/samuel/dev/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has been ignored
+20-Oct-2023 00:01:58.375 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:01:58.376 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:01:58.442 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:01:58.442 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:01:58.443 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:01:58.443 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:01:58.444 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:01:58.444 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:01:58.507 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:01:58.696 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/samuel/dev/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has finished in [2.448] ms
+20-Oct-2023 00:01:58.698 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/docs] de la aplicación web
+20-Oct-2023 00:01:58.951 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:01:58.953 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/docs] has finished in [256] ms
+20-Oct-2023 00:01:58.954 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/host-manager] de la aplicación web
+20-Oct-2023 00:01:59.224 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:01:59.234 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/host-manager] has finished in [279] ms
+20-Oct-2023 00:01:59.234 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/lab-deploy-manual] de la aplicación web
+20-Oct-2023 00:01:59.547 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:01:59.551 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/lab-deploy-manual] has finished in [316] ms
+20-Oct-2023 00:01:59.551 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/examples] de la aplicación web
+20-Oct-2023 00:01:59.915 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:02:00.049 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/examples] has finished in [498] ms
+20-Oct-2023 00:02:00.049 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/ROOT] de la aplicación web
+20-Oct-2023 00:02:00.239 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:02:00.241 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/ROOT] has finished in [192] ms
+20-Oct-2023 00:02:00.242 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/manager] de la aplicación web
+20-Oct-2023 00:02:00.513 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:02:00.516 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/manager] has finished in [274] ms
+20-Oct-2023 00:02:00.520 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Oct-2023 00:02:00.584 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [4478] milliseconds
+20-Oct-2023 00:04:51.152 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.80
+20-Oct-2023 00:04:51.162 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 23 2023 21:59:38 UTC
+20-Oct-2023 00:04:51.163 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.80.0
+20-Oct-2023 00:04:51.163 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+20-Oct-2023 00:04:51.163 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      6.2.0-34-generic
+20-Oct-2023 00:04:51.163 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+20-Oct-2023 00:04:51.163 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-19-openjdk-amd64
+20-Oct-2023 00:04:51.163 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       19.0.2+7-Ubuntu-0ubuntu322.04
+20-Oct-2023 00:04:51.164 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+20-Oct-2023 00:04:51.164 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:04:51.164 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:04:51.215 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2023 00:04:51.215 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2023 00:04:51.216 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2023 00:04:51.216 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2023 00:04:51.216 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2023 00:04:51.217 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/samuel/dev/apache-tomcat-9.0.80/conf/logging.properties
+20-Oct-2023 00:04:51.217 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2023 00:04:51.217 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+20-Oct-2023 00:04:51.217 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Oct-2023 00:04:51.217 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Oct-2023 00:04:51.217 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+20-Oct-2023 00:04:51.217 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:04:51.218 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:04:51.218 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/samuel/dev/apache-tomcat-9.0.80/temp
+20-Oct-2023 00:04:51.221 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+20-Oct-2023 00:04:52.014 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+20-Oct-2023 00:04:52.076 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1547] milliseconds
+20-Oct-2023 00:04:52.303 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+20-Oct-2023 00:04:52.304 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+20-Oct-2023 00:04:52.321 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/home/samuel/dev/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+20-Oct-2023 00:04:52.356 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LABPAPP_WEB] in deployment descriptor [/home/samuel/dev/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has been ignored
+20-Oct-2023 00:04:57.243 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:04:57.249 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:04:57.380 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:04:57.390 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:04:57.396 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:04:57.397 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:04:57.400 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:04:57.401 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:04:57.529 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:04:57.814 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/samuel/dev/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has finished in [5.466] ms
+20-Oct-2023 00:04:57.815 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/docs] de la aplicación web
+20-Oct-2023 00:04:59.005 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:04:59.008 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/docs] has finished in [1.193] ms
+20-Oct-2023 00:04:59.008 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/host-manager] de la aplicación web
+20-Oct-2023 00:04:59.548 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:04:59.688 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/host-manager] has finished in [680] ms
+20-Oct-2023 00:04:59.691 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/lab-deploy-manual] de la aplicación web
+20-Oct-2023 00:05:00.480 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:05:00.483 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/lab-deploy-manual] has finished in [792] ms
+20-Oct-2023 00:05:00.484 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/examples] de la aplicación web
+20-Oct-2023 00:05:01.327 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:05:01.482 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/examples] has finished in [998] ms
+20-Oct-2023 00:05:01.483 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/ROOT] de la aplicación web
+20-Oct-2023 00:05:01.721 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:05:01.726 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/ROOT] has finished in [243] ms
+20-Oct-2023 00:05:01.726 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/manager] de la aplicación web
+20-Oct-2023 00:05:01.914 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:05:01.917 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/manager] has finished in [191] ms
+20-Oct-2023 00:05:01.922 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Oct-2023 00:05:01.948 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [9870] milliseconds
+20-Oct-2023 00:06:01.968 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/lab-deploy-manual]
+20-Oct-2023 00:06:02.103 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/lab-deploy-manual] de la aplicación web
+20-Oct-2023 00:06:02.486 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:06:02.487 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:06:02.487 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:06:02.488 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:06:02.488 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:06:02.488 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:06:02.489 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:06:02.491 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:06:02.494 INFORMACIÓN [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:06:02.497 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/lab-deploy-manual] has finished in [394] ms
+20-Oct-2023 00:08:42.569 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/home/samuel/dev/apache-tomcat-9.0.80/webapps/LABPAPP_WEB-1.0-SNAPSHOT.war] de la aplicación web
+20-Oct-2023 00:08:42.579 GRAVE [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.beforeStart Excepción arreglando docBase: [/LABPAPP_WEB-1.0-SNAPSHOT]
+	java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1483)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1491)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1329)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1292)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:710)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+		at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:103)
+		at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:72)
+		at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:168)
+		at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:109)
+		at java.base/sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:70)
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:129)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:821)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:960)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:306)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1666)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+20-Oct-2023 00:08:42.593 GRAVE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Error durante el despliegue del archivo [/home/samuel/dev/apache-tomcat-9.0.80/webapps/LABPAPP_WEB-1.0-SNAPSHOT.war] de la aplicación web
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1666)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+	Caused by: org.apache.catalina.LifecycleException: Fallo al iniciar el componente [org.apache.catalina.webresources.WarResourceSet@58478809]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:130)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:161)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:715)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 24 more
+	Caused by: java.lang.IllegalArgumentException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:141)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		... 31 more
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:138)
+		... 32 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:79)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 35 more
+	Caused by: java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1483)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1491)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1329)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1292)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:710)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+		... 38 more
+20-Oct-2023 00:08:42.594 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/samuel/dev/apache-tomcat-9.0.80/webapps/LABPAPP_WEB-1.0-SNAPSHOT.war] has finished in [26] ms
+20-Oct-2023 00:08:52.602 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/LABPAPP_WEB-1.0-SNAPSHOT]
+20-Oct-2023 00:08:52.619 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/home/samuel/dev/apache-tomcat-9.0.80/webapps/LABPAPP_WEB-1.0-SNAPSHOT.war] de la aplicación web
+20-Oct-2023 00:08:54.664 ADVERTENCIA [Catalina-utility-2] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:08:54.664 ADVERTENCIA [Catalina-utility-2] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:08:54.664 ADVERTENCIA [Catalina-utility-2] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:08:54.665 ADVERTENCIA [Catalina-utility-2] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:08:54.665 ADVERTENCIA [Catalina-utility-2] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:08:54.666 ADVERTENCIA [Catalina-utility-2] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:08:54.666 ADVERTENCIA [Catalina-utility-2] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:08:54.671 ADVERTENCIA [Catalina-utility-2] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:08:54.678 INFORMACIÓN [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:08:54.680 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/samuel/dev/apache-tomcat-9.0.80/webapps/LABPAPP_WEB-1.0-SNAPSHOT.war] has finished in [2.060] ms
+20-Oct-2023 00:09:05.192 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/LABPAPP_WEB-1.0-SNAPSHOT]
+20-Oct-2023 00:09:05.243 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LABPAPP_WEB-1.0-SNAPSHOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1008)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.unlock(ThreadPoolExecutor.java:670)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1589)
+20-Oct-2023 00:09:05.298 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/home/samuel/dev/apache-tomcat-9.0.80/webapps/LAB_DEPLOY_WAR.war] de la aplicación web
+20-Oct-2023 00:09:06.327 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:09:06.327 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:09:06.327 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:09:06.327 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:09:06.328 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:09:06.328 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:09:06.328 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:09:06.328 ADVERTENCIA [Catalina-utility-1] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:09:06.335 INFORMACIÓN [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:09:06.337 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/samuel/dev/apache-tomcat-9.0.80/webapps/LAB_DEPLOY_WAR.war] has finished in [1.039] ms
+20-Oct-2023 00:09:10.249 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+20-Oct-2023 00:11:45.695 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.80
+20-Oct-2023 00:11:45.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 23 2023 21:59:38 UTC
+20-Oct-2023 00:11:45.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.80.0
+20-Oct-2023 00:11:45.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+20-Oct-2023 00:11:45.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      6.2.0-34-generic
+20-Oct-2023 00:11:45.704 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+20-Oct-2023 00:11:45.704 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-19-openjdk-amd64
+20-Oct-2023 00:11:45.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       19.0.2+7-Ubuntu-0ubuntu322.04
+20-Oct-2023 00:11:45.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+20-Oct-2023 00:11:45.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:11:45.706 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:11:45.720 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2023 00:11:45.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2023 00:11:45.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2023 00:11:45.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2023 00:11:45.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2023 00:11:45.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/samuel/dev/apache-tomcat-9.0.80/conf/logging.properties
+20-Oct-2023 00:11:45.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2023 00:11:45.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+20-Oct-2023 00:11:45.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Oct-2023 00:11:45.723 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Oct-2023 00:11:45.723 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+20-Oct-2023 00:11:45.723 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:11:45.723 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/samuel/dev/apache-tomcat-9.0.80
+20-Oct-2023 00:11:45.723 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/samuel/dev/apache-tomcat-9.0.80/temp
+20-Oct-2023 00:11:45.724 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+20-Oct-2023 00:11:46.255 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+20-Oct-2023 00:11:46.286 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Fallo al iniciar el componente [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Falló la inicialización del manejador de protocolo
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1040)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: La dirección ya se está usando
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1324)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1337)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:652)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+20-Oct-2023 00:11:46.288 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [839] milliseconds
+20-Oct-2023 00:11:46.376 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+20-Oct-2023 00:11:46.376 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+20-Oct-2023 00:11:46.385 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/home/samuel/dev/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+20-Oct-2023 00:11:46.403 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LABPAPP_WEB] in deployment descriptor [/home/samuel/dev/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has been ignored
+20-Oct-2023 00:11:48.045 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:48.046 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:48.087 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:48.087 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:48.088 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:48.088 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:48.089 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:48.089 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:48.126 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:11:48.204 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/samuel/dev/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has finished in [1.815] ms
+20-Oct-2023 00:11:48.207 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/home/samuel/dev/apache-tomcat-9.0.80/webapps/LAB_DEPLOY_WAR.war] de la aplicación web
+20-Oct-2023 00:11:48.872 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:48.872 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:48.872 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:48.873 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:48.874 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:48.874 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:48.874 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:48.875 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:48.884 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:11:48.886 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/samuel/dev/apache-tomcat-9.0.80/webapps/LAB_DEPLOY_WAR.war] has finished in [679] ms
+20-Oct-2023 00:11:48.887 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/docs] de la aplicación web
+20-Oct-2023 00:11:49.070 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:11:49.072 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/docs] has finished in [185] ms
+20-Oct-2023 00:11:49.072 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/host-manager] de la aplicación web
+20-Oct-2023 00:11:49.239 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:11:49.247 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/host-manager] has finished in [175] ms
+20-Oct-2023 00:11:49.247 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/lab-deploy-manual] de la aplicación web
+20-Oct-2023 00:11:49.378 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:49.379 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:49.380 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:49.380 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:49.380 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:49.381 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:49.381 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+20-Oct-2023 00:11:49.381 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+20-Oct-2023 00:11:49.384 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:11:49.387 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/lab-deploy-manual] has finished in [139] ms
+20-Oct-2023 00:11:49.387 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/examples] de la aplicación web
+20-Oct-2023 00:11:49.620 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:11:49.663 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/examples] has finished in [275] ms
+20-Oct-2023 00:11:49.663 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/ROOT] de la aplicación web
+20-Oct-2023 00:11:49.997 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:11:49.999 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/ROOT] has finished in [336] ms
+20-Oct-2023 00:11:50.001 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/apache-tomcat-9.0.80/webapps/manager] de la aplicación web
+20-Oct-2023 00:11:50.282 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+20-Oct-2023 00:11:50.286 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/apache-tomcat-9.0.80/webapps/manager] has finished in [285] ms
+20-Oct-2023 00:11:50.290 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [4000] milliseconds
+20-Oct-2023 00:11:50.294 GRAVE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: La dirección ya se está usando
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:629)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:393)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:275)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:582)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+20-Oct-2023 00:11:50.295 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Oct-2023 00:11:50.296 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+20-Oct-2023 00:11:50.317 ADVERTENCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LABPAPP_WEB] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1589)
+20-Oct-2023 00:11:50.337 ADVERTENCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LAB_DEPLOY_WAR] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.StringLatin1.hashCode(StringLatin1.java:193)
+ java.base/java.lang.String.hashCode(String.java:2350)
+ java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1012)
+ java.base/java.util.concurrent.ConcurrentHashMap.putIfAbsent(ConcurrentHashMap.java:1541)
+ java.base/java.lang.ClassLoader.getClassLoadingLock(ClassLoader.java:667)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1589)
+20-Oct-2023 00:11:50.343 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Oct-2023 00:11:50.345 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

@@ -1,0 +1,335 @@
+04-Oct-2023 21:17:12.018 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.80
+04-Oct-2023 21:17:12.031 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 23 2023 21:59:38 UTC
+04-Oct-2023 21:17:12.031 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.80.0
+04-Oct-2023 21:17:12.031 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+04-Oct-2023 21:17:12.031 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      6.2.0-33-generic
+04-Oct-2023 21:17:12.032 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+04-Oct-2023 21:17:12.032 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-19-openjdk-amd64
+04-Oct-2023 21:17:12.032 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       19.0.2+7-Ubuntu-0ubuntu322.04
+04-Oct-2023 21:17:12.032 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+04-Oct-2023 21:17:12.032 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:17:12.032 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:17:12.095 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2023 21:17:12.095 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2023 21:17:12.096 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2023 21:17:12.096 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2023 21:17:12.096 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2023 21:17:12.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/logging.properties
+04-Oct-2023 21:17:12.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 21:17:12.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 21:17:12.098 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 21:17:12.098 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 21:17:12.099 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+04-Oct-2023 21:17:12.099 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:17:12.099 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:17:12.100 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/temp
+04-Oct-2023 21:17:12.102 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+04-Oct-2023 21:17:12.646 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+04-Oct-2023 21:17:12.740 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1208] milliseconds
+04-Oct-2023 21:17:12.850 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+04-Oct-2023 21:17:12.850 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+04-Oct-2023 21:17:12.860 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+04-Oct-2023 21:17:12.901 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LABPAPP_WEB] in deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has been ignored
+04-Oct-2023 21:17:12.950 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4c2bb6e0]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/samuel/dev/PAPP_WEB/LABPAPP_WEB/target/LABPAPP_WEB-1.0-SNAPSHOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+04-Oct-2023 21:17:12.962 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has finished in [92] ms
+04-Oct-2023 21:17:12.963 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/docs] de la aplicación web
+04-Oct-2023 21:17:13.562 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:17:13.653 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/docs] has finished in [689] ms
+04-Oct-2023 21:17:13.653 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/host-manager] de la aplicación web
+04-Oct-2023 21:17:13.869 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:17:13.878 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/host-manager] has finished in [225] ms
+04-Oct-2023 21:17:13.878 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/examples] de la aplicación web
+04-Oct-2023 21:17:14.301 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:17:14.342 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/examples] has finished in [464] ms
+04-Oct-2023 21:17:14.343 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/ROOT] de la aplicación web
+04-Oct-2023 21:17:14.506 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:17:14.509 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/ROOT] has finished in [166] ms
+04-Oct-2023 21:17:14.509 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/manager] de la aplicación web
+04-Oct-2023 21:17:14.676 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:17:14.679 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/manager] has finished in [170] ms
+04-Oct-2023 21:17:14.682 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:17:14.818 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2076] milliseconds
+04-Oct-2023 21:29:37.101 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:29:37.162 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+04-Oct-2023 21:29:37.252 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:29:37.308 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:29:37.310 ADVERTENCIA [Thread-1] org.apache.catalina.deploy.NamingResourcesImpl.cleanUp Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/LABPAPP_WEB]] so no cleanup was performed for that container
+	javax.naming.NamingException: No hay contexto de nombres asociado a este cargador de clase
+		at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:271)
+		at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:976)
+		at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:959)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5162)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:278)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:983)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:983)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:577)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1048)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:996)
+04-Oct-2023 21:30:47.960 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.80
+04-Oct-2023 21:30:47.965 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 23 2023 21:59:38 UTC
+04-Oct-2023 21:30:47.966 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.80.0
+04-Oct-2023 21:30:47.966 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+04-Oct-2023 21:30:47.966 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      6.2.0-33-generic
+04-Oct-2023 21:30:47.966 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+04-Oct-2023 21:30:47.966 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-19-openjdk-amd64
+04-Oct-2023 21:30:47.966 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       19.0.2+7-Ubuntu-0ubuntu322.04
+04-Oct-2023 21:30:47.967 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+04-Oct-2023 21:30:47.967 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:30:47.967 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:30:47.992 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2023 21:30:47.993 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2023 21:30:47.993 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2023 21:30:47.993 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2023 21:30:47.993 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2023 21:30:47.998 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/logging.properties
+04-Oct-2023 21:30:47.998 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 21:30:47.998 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 21:30:48.009 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 21:30:48.011 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 21:30:48.011 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+04-Oct-2023 21:30:48.011 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:30:48.011 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:30:48.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/temp
+04-Oct-2023 21:30:48.014 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+04-Oct-2023 21:30:48.602 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+04-Oct-2023 21:30:48.649 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1003] milliseconds
+04-Oct-2023 21:30:48.710 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+04-Oct-2023 21:30:48.711 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+04-Oct-2023 21:30:48.720 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+04-Oct-2023 21:30:48.740 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LABPAPP_WEB] in deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has been ignored
+04-Oct-2023 21:30:50.113 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:30:50.114 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:30:50.145 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:30:50.146 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:30:50.146 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:30:50.147 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:30:50.147 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:30:50.147 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:30:50.186 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:30:50.288 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has finished in [1.564] ms
+04-Oct-2023 21:30:50.289 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/docs] de la aplicación web
+04-Oct-2023 21:30:50.485 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:30:50.488 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/docs] has finished in [199] ms
+04-Oct-2023 21:30:50.489 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/host-manager] de la aplicación web
+04-Oct-2023 21:30:50.704 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:30:50.723 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/host-manager] has finished in [234] ms
+04-Oct-2023 21:30:50.724 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/examples] de la aplicación web
+04-Oct-2023 21:30:51.027 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:30:51.075 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/examples] has finished in [352] ms
+04-Oct-2023 21:30:51.076 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/ROOT] de la aplicación web
+04-Oct-2023 21:30:51.287 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:30:51.289 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/ROOT] has finished in [213] ms
+04-Oct-2023 21:30:51.289 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/manager] de la aplicación web
+04-Oct-2023 21:30:51.486 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:30:51.489 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/manager] has finished in [200] ms
+04-Oct-2023 21:30:51.511 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:30:51.532 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2880] milliseconds
+04-Oct-2023 21:31:21.245 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:31:21.249 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+04-Oct-2023 21:31:21.316 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:31:21.343 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:34:14.910 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.80
+04-Oct-2023 21:34:14.916 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 23 2023 21:59:38 UTC
+04-Oct-2023 21:34:14.916 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.80.0
+04-Oct-2023 21:34:14.916 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+04-Oct-2023 21:34:14.916 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      6.2.0-33-generic
+04-Oct-2023 21:34:14.916 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+04-Oct-2023 21:34:14.917 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /snap/strictly-netbeans/33/jdk
+04-Oct-2023 21:34:14.917 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21+35-snap
+04-Oct-2023 21:34:14.917 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Snap Build
+04-Oct-2023 21:34:14.917 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:34:14.917 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:34:14.932 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2023 21:34:14.932 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/logging.properties
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|samuel-vm
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:34:14.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:34:14.946 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/temp
+04-Oct-2023 21:34:14.955 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void:/snap/strictly-netbeans/33/lib:/snap/strictly-netbeans/33/lib/x86_64-linux-gnu:/snap/strictly-netbeans/33/gnome-platform/lib/x86_64-linux-gnu:/snap/strictly-netbeans/33/gnome-platform/usr/lib/x86_64-linux-gnu:/snap/strictly-netbeans/33/gnome-platform/usr/lib:/snap/strictly-netbeans/33/gnome-platform/lib:/snap/strictly-netbeans/33/gnome-platform/usr/lib/x86_64-linux-gnu/dri:/var/lib/snapd/lib/gl:/snap/strictly-netbeans/33/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Oct-2023 21:34:15.491 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+04-Oct-2023 21:34:15.562 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1144] milliseconds
+04-Oct-2023 21:34:15.661 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+04-Oct-2023 21:34:15.662 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+04-Oct-2023 21:34:15.690 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+04-Oct-2023 21:34:15.708 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LABPAPP_WEB] in deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has been ignored
+04-Oct-2023 21:34:17.120 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:34:17.121 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:34:17.159 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:34:17.160 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:34:17.161 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:34:17.162 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:34:17.164 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:34:17.164 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:34:17.195 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:34:17.292 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has finished in [1.599] ms
+04-Oct-2023 21:34:17.293 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/docs] de la aplicación web
+04-Oct-2023 21:34:17.569 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:34:17.572 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/docs] has finished in [278] ms
+04-Oct-2023 21:34:17.572 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/host-manager] de la aplicación web
+04-Oct-2023 21:34:18.027 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:34:18.062 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/host-manager] has finished in [490] ms
+04-Oct-2023 21:34:18.063 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/examples] de la aplicación web
+04-Oct-2023 21:34:18.438 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:34:18.494 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/examples] has finished in [431] ms
+04-Oct-2023 21:34:18.494 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/ROOT] de la aplicación web
+04-Oct-2023 21:34:18.763 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:34:18.766 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/ROOT] has finished in [271] ms
+04-Oct-2023 21:34:18.766 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/manager] de la aplicación web
+04-Oct-2023 21:34:19.095 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:34:19.098 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/manager] has finished in [332] ms
+04-Oct-2023 21:34:19.104 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:34:19.142 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [3578] milliseconds
+04-Oct-2023 21:35:04.891 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+04-Oct-2023 21:35:04.892 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:35:04.893 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+04-Oct-2023 21:35:04.942 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:35:04.976 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:36:54.459 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.80
+04-Oct-2023 21:36:54.470 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 23 2023 21:59:38 UTC
+04-Oct-2023 21:36:54.470 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.80.0
+04-Oct-2023 21:36:54.471 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+04-Oct-2023 21:36:54.471 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      6.2.0-33-generic
+04-Oct-2023 21:36:54.472 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+04-Oct-2023 21:36:54.472 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /snap/strictly-netbeans/33/jdk
+04-Oct-2023 21:36:54.472 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21+35-snap
+04-Oct-2023 21:36:54.472 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Snap Build
+04-Oct-2023 21:36:54.472 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:36:54.472 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:36:54.505 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2023 21:36:54.505 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2023 21:36:54.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2023 21:36:54.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2023 21:36:54.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2023 21:36:54.507 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/logging.properties
+04-Oct-2023 21:36:54.507 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 21:36:54.507 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|samuel-vm
+04-Oct-2023 21:36:54.507 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 21:36:54.507 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 21:36:54.507 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 21:36:54.507 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+04-Oct-2023 21:36:54.509 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:36:54.509 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80
+04-Oct-2023 21:36:54.511 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/temp
+04-Oct-2023 21:36:54.514 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void:/snap/strictly-netbeans/33/lib:/snap/strictly-netbeans/33/lib/x86_64-linux-gnu:/snap/strictly-netbeans/33/gnome-platform/lib/x86_64-linux-gnu:/snap/strictly-netbeans/33/gnome-platform/usr/lib/x86_64-linux-gnu:/snap/strictly-netbeans/33/gnome-platform/usr/lib:/snap/strictly-netbeans/33/gnome-platform/lib:/snap/strictly-netbeans/33/gnome-platform/usr/lib/x86_64-linux-gnu/dri:/var/lib/snapd/lib/gl:/snap/strictly-netbeans/33/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Oct-2023 21:36:54.948 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+04-Oct-2023 21:36:54.974 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [823] milliseconds
+04-Oct-2023 21:36:55.048 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+04-Oct-2023 21:36:55.048 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+04-Oct-2023 21:36:55.069 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+04-Oct-2023 21:36:55.096 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LABPAPP_WEB] in deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has been ignored
+04-Oct-2023 21:36:56.271 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:36:56.272 ADVERTENCIA [main] java.util.ArrayList.forEach Name = tur Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:36:56.307 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:36:56.307 ADVERTENCIA [main] java.util.ArrayList.forEach Name = Turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:36:56.308 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:36:56.308 ADVERTENCIA [main] java.util.ArrayList.forEach Name = LABPAPP_WEB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:36:56.308 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+04-Oct-2023 21:36:56.309 ADVERTENCIA [main] java.util.ArrayList.forEach Name = turismo Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+04-Oct-2023 21:36:56.348 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:36:56.417 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has finished in [1.346] ms
+04-Oct-2023 21:36:56.418 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/docs] de la aplicación web
+04-Oct-2023 21:36:56.623 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:36:56.625 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/docs] has finished in [206] ms
+04-Oct-2023 21:36:56.625 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/host-manager] de la aplicación web
+04-Oct-2023 21:36:56.829 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:36:56.836 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/host-manager] has finished in [210] ms
+04-Oct-2023 21:36:56.836 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/examples] de la aplicación web
+04-Oct-2023 21:36:57.131 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:36:57.168 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/examples] has finished in [332] ms
+04-Oct-2023 21:36:57.168 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/ROOT] de la aplicación web
+04-Oct-2023 21:36:57.565 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:36:57.567 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/ROOT] has finished in [399] ms
+04-Oct-2023 21:36:57.567 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/manager] de la aplicación web
+04-Oct-2023 21:36:57.795 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:36:57.797 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/webapps/manager] has finished in [229] ms
+04-Oct-2023 21:36:57.801 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:36:57.821 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2844] milliseconds
+04-Oct-2023 21:36:59.291 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/LABPAPP_WEB]
+04-Oct-2023 21:36:59.328 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+04-Oct-2023 21:36:59.329 ADVERTENCIA [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LABPAPP_WEB] in deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has been ignored
+04-Oct-2023 21:37:00.226 INFORMACIÓN [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:37:00.229 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has finished in [901] ms
+04-Oct-2023 21:37:00.235 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/LABPAPP_WEB]] after start() had already been called. The second call will be ignored.
+04-Oct-2023 21:39:29.528 INFORMACIÓN [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/LABPAPP_WEB]
+04-Oct-2023 21:39:29.557 INFORMACIÓN [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml]
+04-Oct-2023 21:39:29.559 ADVERTENCIA [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LABPAPP_WEB] in deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has been ignored
+04-Oct-2023 21:39:30.199 INFORMACIÓN [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Oct-2023 21:39:30.201 INFORMACIÓN [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/samuel/dev/PAPP_WEB-VersionBoostrap/PAPP_WEB/apache-tomcat-9.0.80/conf/Catalina/localhost/LABPAPP_WEB.xml] has finished in [644] ms
+04-Oct-2023 21:39:30.205 INFORMACIÓN [http-nio-8080-exec-18] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/LABPAPP_WEB]] after start() had already been called. The second call will be ignored.
+04-Oct-2023 21:40:51.303 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+04-Oct-2023 21:40:51.303 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:40:51.307 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+04-Oct-2023 21:40:51.325 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Oct-2023 21:40:51.341 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
